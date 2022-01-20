@@ -1,4 +1,4 @@
-// En estas primeras 6 preguntas, reemplaza `null` por la respuesta
+// En estas primeras 6 preguntas, reemplaza `null` por la respuesta//
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = hola;
@@ -7,7 +7,7 @@ const nuevaString = hola;
 const nuevoNum = 5;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - null === 5;
