@@ -57,7 +57,7 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   return x / y;
-}
+}console.log(divide(4,2));
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -80,7 +80,7 @@ function tienenMismaLongitud(str1, str2) {
   else {
     return false
   }
-}
+}console.log(tienenMismaLongitud("holas","hola"));
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -109,7 +109,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x % y;
-}
+}console.log(obtenerResto(5,2));
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -133,7 +133,7 @@ function esImpar(num) {
   }else {
     return false
    }
-}
+}console.log(esImpar(2));
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
@@ -153,25 +153,28 @@ function elevar(num, exponent) {
   // Tu código:
   return Math.pow(num, exponent)
 }
+console.log(elevar(5,2));
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   return Math.round(num)
   
-}
+}console.log(redondearNumero(5.4));
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   return Math.ceil(num)
 }
+console.log(redondearHaciaArriba(5.1));
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return Math.random()
 }
+console.log(numeroRandom());
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -188,6 +191,7 @@ function esPositivo(numero) {
     return false
   }
 }
+console.log(esPositivo(0));
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -195,7 +199,7 @@ function agregarSimboloExclamacion(str) {
   // Tu código:
   return str + "!"
 }
-
+console.log(agregarSimboloExclamacion("dayro"));
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -204,6 +208,7 @@ function combinarNombres(nombre, apellido) {
   //return  nombre.concat(" ") + apellido
   return nombre + " " + apellido
 }
+console.log(combinarNombres("dayro","quintanilla"));
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
@@ -211,27 +216,28 @@ function obtenerSaludo(nombre) {
   // Tu código:
   return "Hola" + " " + nombre + "!"
 }
+console.log(obtenerSaludo("dayro"));
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return alto*ancho
 }
-
+console.log(obtenerAreaRectangulo(2,4));
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   return lado+lado+lado+lado
 }
-
+console.log(retornarPerimetro(2));
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
  return base*altura/2
 }
-
+console.log(areaDelTriangulo(6,4));
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
@@ -239,15 +245,11 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   //1E=1.20U
   return euro*1.20
+  
 }
-
+console.log(deEuroAdolar(2));
 
 function esVocal(letra){
-  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
-  //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
-  // Si no es vocal, tambien debe devolver "Dato incorrecto".
-  //Escribe tu código aquí
   if(letra.length>1){
     return "Dato incorrecto"}
   else if
